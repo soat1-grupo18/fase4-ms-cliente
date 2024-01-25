@@ -4,10 +4,10 @@ services:
   db:
     image: postgres:15
     restart: always
-    container_name: db
+    container_name: cliente_dbhost
     environment:
       - POSTGRES_DB=cliente_db
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
     ports:
-      - 5432:5432
+      - 5433:5432

@@ -7,7 +7,7 @@ resources:
     parentId: wrk_116d427fd3c64cb08d5ecdb5ee31c0d5
     modified: 1688603367699
     created: 1687904640186
-    url: http://localhost:8080/clientes
+    url: http://localhost:8081/clientes
     name: /clientes
     description: ""
     method: POST
@@ -45,7 +45,7 @@ resources:
     parentId: wrk_116d427fd3c64cb08d5ecdb5ee31c0d5
     modified: 1705974832139
     created: 1687905426113
-    url: http://localhost:8080/clientes/{% response 'body',
+    url: http://localhost:8081/clientes/{% response 'body',
       'req_ea9567efa0fc4bee8115152d8fc83090', 'b64::JC5jcGY=::46b', 'never', 60
       %}
     name: /clientes/{cpf}

@@ -61,7 +61,7 @@ kubectl apply -f kubernetes/
 
 ### Swagger
 
-Para acessar o Swagger da aplicação, acesse o caminho [/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html) da aplicação.
+Para acessar o Swagger da aplicação, acesse o caminho [/swagger-ui/index.html](http://localhost:8081/swagger-ui/index.html) da aplicação.
 
 ### Insomnia
 
