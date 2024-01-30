@@ -30,5 +30,4 @@ jobs:
       kubernetes-manifest-directory-path: kubernetes
       kubernetes-namespace: ms-cliente
       sonar-project-key: soat1-grupo18_fase4-ms-cliente
-
     secrets: inherit
